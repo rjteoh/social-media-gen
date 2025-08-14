@@ -1,0 +1,5 @@
+openai>=1.99.9
+pandas
+playwright
+python-dotenv
+pydantic
