@@ -8,7 +8,7 @@ The script can generate content in the style of:
 
 - Reddit comments  
 - Tweet threads  
-- Instagram posts  
+- Instagram posts (including AI-generated pictures)
 - Facebook posts
 
 ## 🗝 Requirements
@@ -17,7 +17,7 @@ The script can generate content in the style of:
 - Python 3.8+
 - Optional: `.env` file with:
   - `OPENAI_API_KEY`
-  - `COUNTRY` (e.g. `"Singapore"`, `"generic English-speaking country"`, etc.)
+  - `COUNTRY` (e.g. "Singapore", "generic English-speaking country", etc.)
 
 ## 📦 Installation
 
@@ -36,7 +36,8 @@ cd social-media-gen
    ```bat
    ./setup.bat
   ```
- 
+**Note for advanced users:** You can install dependencies manually by installing from `requirements.txt`, then running `python -m playwright install` to download browser binaries used by Playwright.
+
 ## 🚀 Quick Start
 
 1. **Write your prompt**  
